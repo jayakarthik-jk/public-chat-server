@@ -1,0 +1,5 @@
+{
+  "port": "7373",
+  "origin": "*",
+  "roomId": "public-chat-server-by-jk"
+}
