@@ -10,7 +10,7 @@ app.use(helmet());
 app.use(cors());
 const server = http.createServer(app);
 
-const port = c.get("port");
+const port = process.env.PORT || c.get("port");
 server.listen(port, () => {
   console.log(`Server started listening at port ${port}`);
 });
